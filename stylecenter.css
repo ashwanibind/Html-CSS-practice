@@ -1,0 +1,43 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+ 
+.center {
+    background-color: rgb(135, 245, 56);
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.item {
+    color: yellow;   
+    background-color: blue;
+    width: 100px;
+    height: 100px;   
+    cursor: pointer; 
+}
+
+.para {
+
+    text-align: center;
+    margin-top: 40%;
+}
+a {
+    background-color: rgb(247, 107, 247);
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 2rem;
+    
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+}
+
+a:hover{
+    color: yellow;
+    cursor: pointer;
+}
